@@ -1,8 +1,8 @@
 ### Date created
-Feb 09 2021
+Feb 09 2021.
 
 ### Project Title
-Bikeshare
+Bikeshare.
 
 ### Description
 Bikeshare is a program that takes data and displays statistics that can be filtered at the users choice.
@@ -14,4 +14,4 @@ chicago.csv
 my_bikeshare_project.py
 
 ### Credits
-Ben Stiller, Owen Wilson
+Ben Stiller, Owen Wilson.
