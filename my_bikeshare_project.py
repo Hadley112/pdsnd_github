@@ -412,18 +412,18 @@ def main():
 
 
        while True:
-           restart = input('\nWould you like to restart? Enter either Y or N: ').lower()
-           if restart == "y":
+           restart = input('\nWould you like to restart? Enter either Yes or No: ').lower()
+           if restart == "yes":
                print('-'*40)
                print('Reloading Options')
                print('-'*40)
                break
-           elif restart == "n":
+           elif restart == "no":
                quit()
            elif restart == 'q':
                quit()
            else:
-               print('\nPlease only enter "Y" for yes or "N" for no.')
+               print('\nPlease only enter "Yes" or "No"')
 
 if __name__ == "__main__":
    main()
