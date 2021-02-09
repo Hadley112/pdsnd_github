@@ -14,4 +14,4 @@ chicago.csv
 my_bikeshare_project.py
 
 ### Credits
-Ben Stiller, Owen Wilson.
+Ben Stiller, Owen Wilson, John Wayne.
