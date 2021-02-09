@@ -344,7 +344,7 @@ def raw_data_display(df):
                    print(df.head())
                    i = 5
                    while True:
-                       print_more_head = input('\nWould you like to load five more rows? Enter either Y or N: ').lower()
+                       print_more_head = input('\nWould you like to load five more rows? Please enter either Y or N: ').lower()
                        if print_more_head == "y":
                            i = i + 5
                            print(df.head(i))
@@ -368,7 +368,7 @@ def raw_data_display(df):
                        elif print_more_tail == "q":
                            quit()
                        else:
-                           print('\nPlease only enter "Y" for yes or "N" for no.')
+                           print('\nPlease only enter "Y" for yes, or "N" for no.')
 
                elif head_or_tail == "q":
                    quit()
@@ -412,7 +412,7 @@ def main():
 
 
        while True:
-           restart = input('\nWould you like to restart? Enter either Y or N: ').lower()
+           restart = input('\nWould you like to restart? Please enter either Y or N: ').lower()
            if restart == "y":
                print('-'*40)
                print('Reloading Options')
@@ -423,7 +423,7 @@ def main():
            elif restart == 'q':
                quit()
            else:
-               print('\nPlease only enter "Y" for yes or "N" for no.')
+               print('\nPlease only enter "Y" for yes, or "N" for no.')
 
 if __name__ == "__main__":
    main()
