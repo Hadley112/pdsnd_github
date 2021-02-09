@@ -100,12 +100,12 @@ def get_filters():
 
    valid_response = False
    while valid_response == False:
-       correct_input = input('\nAre these options correct? Please enter either Y/N. ').lower()
-       if correct_input == "y":
+       correct_input = input('\nAre these options correct? Please enter either "Yes" or "No". ').lower()
+       if correct_input == "yes":
            return city, month, day
            valid_response = True
            break
-       elif correct_input == "n":
+       elif correct_input == "no":
            print('-'*40)
            print('Reloading Options')
            print('-'*40)
@@ -412,18 +412,18 @@ def main():
 
 
        while True:
-           restart = input('\nWould you like to restart? Enter either Y or N: ').lower()
-           if restart == "y":
+           restart = input('\nWould you like to restart? Enter either Yes or No: ').lower()
+           if restart == "yes":
                print('-'*40)
                print('Reloading Options')
                print('-'*40)
                break
-           elif restart == "n":
+           elif restart == "no":
                quit()
            elif restart == 'q':
                quit()
            else:
-               print('\nPlease only enter "Y" for yes or "N" for no.')
+               print('\nPlease only enter "Yes" or "No"')
 
 if __name__ == "__main__":
    main()
