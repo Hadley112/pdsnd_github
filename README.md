@@ -5,7 +5,8 @@ Feb 09 2021.
 Bikeshare.
 
 ### Description
-Bikeshare is a program that takes data and displays statistics that can be filtered at the users choice.
+Bikeshare is a program that takes data and displays statistics that can be filtered at the users choice. The user
+also has the option to display the raw data if they choose to.
 
 ### Files used
 new_york_city.csv
